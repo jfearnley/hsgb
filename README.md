@@ -21,4 +21,9 @@ Controls are
 * Select - A
 * Quit - Escape
 
-You can also press B at any time to drop into a debugger on the terminal.
+You can also press B at any time to drop into a debugger on the terminal. Press
+tab to view the available commands in the debugger. The debugger can also be
+run separately using
+```
+$ stack run debug [path to rom file]
+```
